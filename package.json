@@ -23,7 +23,7 @@
   "author": "Paul Marceau",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/pmarceaujr/mktplace-helper.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
