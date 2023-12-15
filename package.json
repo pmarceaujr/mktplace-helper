@@ -1,5 +1,5 @@
 {
-  "name": "mktplace-helper",
+  "name": "@pmarceaujr/mktplace-helper",
   "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
@@ -19,7 +19,6 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@pmarceaujr/mktplace-helper",
   "author": "Paul Marceau",
   "repository": {
     "type": "git",
@@ -38,5 +37,10 @@
       "require": "./cjs/icons/index.js"
     }
   },
-  "types": "./src/index.d.ts"
+  "types": "./src/index.d.ts",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.11.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
 }
